@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Worksho</title>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/registration.js"></script>
+</head>
+<body>
+    <div>
+        <h2>Registration</h2>
+        <form name="myForm">
+            <table border="black>
+                <tr>
+                    <th>first name</th>
+                    <td><input type="text" id="firstname" placeholder="first name" minlength="3" maxlength="15" required="true"></td>
+                </tr>
+                <tr>
+                    <th>last name</th>
+                    <td><input type="text" id="lastname" placeholder="last name" minlength="5" maxlength="25" required="true"></td>
+                </tr>
+                <tr>
+                    <th>Username</th>
+                    <td><input type="text" id="username" placeholder="user name" required="true"></td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><input type="text" class="textarea" id="address" placeholder="address" required="true"></td>
+                </tr>
+                <tr>
+                    <th>pin</th>
+                    <td><input type="number" placeholder="pincode" required="true"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="submit" id="register" value="register">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
